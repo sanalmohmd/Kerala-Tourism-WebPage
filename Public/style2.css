@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "courier new";
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgba(225, 92, 30, 0.879);
+    height: 80px;
+    display: flex;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.homelogo{
+    
+
+    height: 70px;
+    width: 80px;
+    border-radius:15px;
+    
+}
+
+
+header a, li{
+    font-family: tahoma;
+    text-decoration: none;
+    list-style-type: none;
+    color:antiquewhite;
+    display:inline-block;
+    padding-left: 80px ;
+    padding-top: 9px;
+    font-weight: 700;
+    margin-left: 50px;
+
+}
+
+
+
+
+
+.secondpage{
+    height: 100vh;
+    background-color: rgba(192, 209, 182, 0.747);
+}
+
+.secondpage h2{
+    
+    color: rgb(21, 28, 28);
+    text-align: center;
+    padding: 100px;
+}
+
+.secondpage form{
+    justify-content: center;
+    
+    margin-left: 38%;
+    
+    padding: auto;
+    border: 1px solid;
+    width: 400px;
+    height: 20vh;
+    padding:20px;
+    align-items: center;
+    
+}
